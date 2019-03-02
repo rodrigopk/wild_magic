@@ -1,24 +1,11 @@
-# README
+# Wild Magic
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a roller for the [The Net Libram of Random Magical Effects v2](https://centralia.aquest.com/downloads/NLRMEv2.pdf).  
+It selects one effect from the 10000 effects described in the document.  
 
-Things you may want to cover:
+The App is available at [https://wild-magic.herokuapp.com/](https://wild-magic.herokuapp.com/)
 
-* Ruby version
+Alternatively, you can run it locally by following the steps below:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`$ bundle install`  
+`$ bundle exec rails s`
