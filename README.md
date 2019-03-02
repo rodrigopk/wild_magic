@@ -9,3 +9,5 @@ Alternatively, you can run it locally by following the steps below:
 
 `$ bundle install`  
 `$ bundle exec rails s`
+
+May the Chaos gods have mercy of your players.
