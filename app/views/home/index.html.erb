@@ -2,3 +2,9 @@
 <h2>Effect</h2>
 <p id="magic-effect"><%= @current_effect %></p>
 <%= button_to 'Roll new effect', root_path, remote: true %>
+
+<%= link_to 'Source code',
+            github_url,
+            rel: 'noopener noreferrer',
+            target: '_blank'
+%>
