@@ -2,13 +2,18 @@
   <div class="d-flex align-items-center flex-column">
     <h1>Wild Magic!</h1>
     <h2>Effect</h2>
-    <p class="text-center mt-5 mb-5" id="magic-effect"><%= @current_effect %></p>
+    <p class="text-center mt-5 mb-5" id="magic-effect">
+      <%= @current_effect %>
+    </p>
+
     <%= button_to 'Roll new effect', root_path, remote: true %>
 
-    <%= link_to 'Source code',
-                github_url,
-                rel: 'noopener noreferrer',
-                target: '_blank'
-    %>
+    <a
+      href="<%= github_url %>"
+      class="mt-5 fa fa-github"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+    </a>
   </div>
 </div>
