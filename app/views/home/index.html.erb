@@ -6,7 +6,12 @@
       <%= @current_effect %>
     </p>
 
-    <%= button_to 'Roll new effect', root_path, remote: true %>
+    <%= button_to 'Roll new effect',
+        root_path,
+        remote: true,
+        form_class: 'form',
+        class: 'btn btn-primary'
+    %>
 
     <a
       href="<%= github_url %>"
