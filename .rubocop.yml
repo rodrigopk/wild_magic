@@ -32,3 +32,6 @@ Metrics/AbcSize:
 Metrics/MethodLength:
   Enabled: true
   Max: 80
+Metrics/LineLength:
+  Max: 80
+  IgnoredPatterns: ['(\A|\s)#']
