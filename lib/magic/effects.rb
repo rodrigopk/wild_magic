@@ -15,7 +15,11 @@ module Magic
     end
 
     def pick_random_effect
-      @effect_list['effects'][@dice.roll]
+      magical_effects[@dice.roll]
+    end
+
+    def magical_effects
+      @effect_list['effects']
     end
   end
 end
