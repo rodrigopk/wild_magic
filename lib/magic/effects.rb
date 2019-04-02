@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative './dice'
+require 'wild_dice'
 
 module Magic
   class Effects
@@ -8,7 +8,7 @@ module Magic
 
     def initialize(dependencies = {})
       @dice = dependencies.fetch(:dice) do
-        Magic::Dice.new
+        Wild::Dice.new
       end
 
       @effect_list = YAML.load_file(MAGICAL_EFFECTS_YAML_FILE)
